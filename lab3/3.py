@@ -1,0 +1,7 @@
+number = input().split()
+number = ''.join(number)
+number = number.replace('+', '')
+number = number.replace('-', '')
+number = number.replace('(', '')
+number = number.replace(')', '')
+print(number)

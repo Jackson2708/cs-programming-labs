@@ -1,0 +1,5 @@
+data = input().split(';')
+print(f'Поезд: {data[0]}')
+print(f'Маршрут: {data[1]} - {data[2]}')
+print(f'Отправление: {data[3]}')
+print(f'Цена: {float(data[4]):.2f}')

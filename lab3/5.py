@@ -1,0 +1,6 @@
+id = input()
+print(f'Длина: {len(id)}')
+print(f'Только буквы: {id.isalpha()}')
+print(f'Только цифры: {id.isdigit()}')
+print(f'Буквенно-цифровая: {id.isalnum()}')
+print(f'Содержит дефис: {"-" in id}')
